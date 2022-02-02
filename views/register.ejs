@@ -2,12 +2,12 @@
 	<div class="col-md-8 m-auto">
 		<div class="card card-body">
 			<h1 class="text-center mb-3">
-				 Register
+				 Inscription
 			</h1>
 			<%- include ("./partials/message"); %>
 			<form action="/register" method="POST">
 				<div class="input-group mb-3">
-					<label class="input-group-text" for="name">Name</label>
+					<label class="input-group-text" for="name">Nom</label>
 					<input
 						type="text"
 						id="name"
@@ -29,7 +29,7 @@
 					/>
 				</div>
 				<div class="input-group mb-3">
-					<label class="input-group-text" for="password">Password</label>
+					<label class="input-group-text" for="password">Mot de passe</label>
 					<input
 						type="password"
 						id="password"
@@ -41,7 +41,7 @@
 				</div>
 				<div class="input-group mb-3">
 					<label class="input-group-text" for="password2"
-						>Confirm Password</label
+						>Confirmer votre mot de passe</label
 					>
 					<input
 						type="password"
@@ -53,10 +53,10 @@
 					/>
 				</div>
 				<button type="submit" class="btn btn-primary btn-block">
-					Register
+					Inscription
 				</button>
 			</form>
-			<p class="lead mt-4">Have An Account? <a href="/login">Login</a></p>
+			<p class="lead mt-4">Vous avez un compte ? <a href="/login">Connexion</a></p>
 		</div>
 	</div>
 </div>

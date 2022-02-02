@@ -1,7 +1,7 @@
 <div class="row mt-5">
 	<div class="col-md-8 m-auto">
 		<div class="card card-body">
-			<h1 class="text-center mb-3">Login</h1>
+			<h1 class="text-center mb-3">Connexion</h1>
 			<%- include ("./partials/message"); %>
 			<form action="/login" method="POST">
 				<div class="input-group mb-3">
@@ -15,7 +15,7 @@
 					/>
 				</div>
 				<div class="input-group mb-3">
-					<label class="input-group-text" for="password">Password</label>
+					<label class="input-group-text" for="password">Mot de passe</label>
 					<input
 						type="password"
 						id="password"
@@ -24,9 +24,9 @@
 						placeholder="Enter Password"
 					/>
 				</div>
-				<button type="submit" class="btn btn-primary btn-block">Login</button>
+				<button type="submit" class="btn btn-primary btn-block">Connexion</button>
 			</form>
-			<p class="lead mt-4">No Account? <a href="/register">Register</a></p>
+			<p class="lead mt-4">Pas de compte encore ? <a href="/register">Inscription</a></p>
 		</div>
 	</div>
 </div>

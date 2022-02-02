@@ -2,7 +2,7 @@
 	<div id="home" class="flex-center">
 		<div class="dashboard-title">
 			<h1>Dashboard</h1>
-			<a href="/logout" class="btn btn-secondary">Logout</a>
+			<a href="/logout" class="btn btn-secondary">Déconnxion</a>
 		</div>
 		<div class="avatar">
 			<img src="<%= user.avatar %>" alt="" />
@@ -12,16 +12,17 @@
 			</div>
 		</div>
 		<div class="how-to">
-			<h3>How To Play</h3>
+			<h3>Consigne</h3>
 			<ol>
-				<li>Player 1: Click play to create new game</li>
-				<li>Player 2: Enter the room id that is displayed below.</li>
-				<li>Click on join game.</li>
+				<li>Player 1: Clicker ici pour créer une nouvelle partie. </li>
+				<li>Player 2: Enter l'id room  qui est affiché ci-dessous.</li>
+				<li>Clicker pour rejoindre la partie.</li>
 			</ol>
 		</div>
+
 		<h1>Quick Quiz</h1>
 		<div class="new-game">
-			<button class="btn btn-primary btn-block" id="newgame">Play</button>
+			<button class="btn btn-primary btn-block" id="newgame">Jouer</button>
 			<form class="input-group" onsubmit="return false;">
 				<input
 					type="text"
@@ -32,7 +33,7 @@
 					required
 				/>
 				<button class="btn btn-primary btn-block" id="joingame">
-					Join Game
+					Rejoindre la partie
 				</button>
 			</form>
 		</div>
@@ -44,44 +45,44 @@
 			<div class="profile">
 				<div class="img">
 					<img id="player1Img" src="<%= user.avatar %>" alt="" />
-					<div id="player1Name">first user</div>
+					<div id="player1Name">Utilisateur 1</div>
 				</div>
 				<div id="player1Score">0</div>
 			</div>
 			<div class="profile inverse">
 				<div class="img inverse">
 					<img id="player2Img" src="<%= user.avatar %>" alt="" />
-					<div id="player2Name">first user</div>
+					<div id="player2Name">Utilisateur 1</div>
 				</div>
 				<div id="player2Score">0</div>
 			</div>
 		</div>
 		<div id="msg" class="invitation-code"></div>
 		<div id="game" class="justify-center flex-column">
-			<h2 id="question">What is the answer to this questions?</h2>
+			<h2 id="question">Quelle est la bonne réponse pour cette question</h2>
 			<h2 id="question_id" style="display: none"></h2>
 			<div id="choice_0" class="choice-container">
 				<div class="choice-prefix">A</div>
-				<div id="answer_0" class="choice-text">Choice 1</div>
+				<div id="answer_0" class="choice-text">Choix 1</div>
 			</div>
 			<div id="choice_1" class="choice-container">
 				<div class="choice-prefix">B</div>
-				<div id="answer_1" class="choice-text">Choice 2</div>
+				<div id="answer_1" class="choice-text">Choix 2</div>
 			</div>
 			<div id="choice_2" class="choice-container">
 				<div class="choice-prefix">C</div>
-				<div id="answer_2" class="choice-text">Choice 3</div>
+				<div id="answer_2" class="choice-text">Choix 3</div>
 			</div>
 			<div id="choice_3" class="choice-container">
 				<div class="choice-prefix">D</div>
-				<div id="answer_3" class="choice-text">Choice 4</div>
+				<div id="answer_3" class="choice-text">Choix 4</div>
 			</div>
 		</div>
 	</div>
 	<div id="winner">
 		<div class="card">
 			<i class="fas fa-trophy"></i>
-			<div>The winner is <span id="winnerName"></span></div>
+			<div>Le gagnant est : <span id="winnerName"></span></div>
 		</div>
 	</div>
 </div>
