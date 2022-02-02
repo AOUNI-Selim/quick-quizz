@@ -1,0 +1,29 @@
+{
+  "name": "quiz-multi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^14.3.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "gravatar": "^1.8.2",
+    "mongoose": "^6.1.8",
+    "mongoose-unique-validator": "^3.0.0",
+    "nanoid": "^3.2.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1"
+  }
+}
