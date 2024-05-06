@@ -8,7 +8,7 @@
 
 <!-- Démarrage de l'application en local -->
 
-3.  ```npm start``` pour démmarer l'App.
+3.  ```npm start``` pour démarer l'App.
 4. Dans un navigateur  [localhost:8000] (http://localhost:8000) pour afficher l'App.
 5. Amusez-vous.
 
